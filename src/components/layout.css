@@ -4,7 +4,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html,
 body,
 div,
@@ -148,14 +147,15 @@ table {
 
 }
 
+
 body {
   overflow: hidden;
 }
 
-.header{
+.header {
   font-size: 30px;
   position: relative;
-  padding: 80px 20px;
+  
   color: #fff;
 }
 
@@ -164,14 +164,65 @@ body {
   mix-blend-mode: normal;
 }
 
-.greenbg{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100px;
-    width: 100%;
-    background: rgba(0, 255, 209, .9);
-    mix-blend-mode: overlay;
+.main-container{
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.desc-text{
+  margin-top: 40px;
+  font-family: 'VT323', monospace;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.button-container{
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+
+.join-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  height: 72px;
+  text-decoration: none;
+}
+
+.join-link:hover{
+  opacity: .9;
+  
+}
+
+
+.join-link span{
+    z-index: 1;
+    color: black;
+    border: 0;
+    
+}
+
+.join-link:hover span{
+  color: white;
+}
+.join-link .btn-bg {
+  position:absolute;
+  height: 100%;
+}
+
+.greenbg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  background: rgba(0, 255, 209, .9);
+  mix-blend-mode: overlay;
 }
 
 .overlay {
@@ -185,7 +236,7 @@ body {
 }
 
 .moving-background {
-  z-index: -1;
+  z-index: -2;
   position: absolute;
   top: 0;
   left: 0;
@@ -193,18 +244,21 @@ body {
   bottom: 0;
   background: #1F1F1F;
   background-size: auto;
-  background-image: url("../../static/background.jpg");
+  background-image: url("/background.jpg");
   background-repeat: repeat;
   background-position: 50% 50%;
 }
+
 .bot_logo {
   text-align: center;
 }
+
 .bot_rext {
   text-align: center;
   margin-top: 30px;
 }
+
 footer a {
   color: aqua;
-  
+
 }
