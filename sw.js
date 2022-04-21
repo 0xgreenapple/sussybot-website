@@ -27,17 +27,17 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-9716537ce32c588e9ea5.js"
+    "url": "webpack-runtime-0bdd174841076c7b55fc.js"
   },
   {
     "url": "framework-6bdc9aaa9caa3de6408b.js"
   },
   {
-    "url": "app-347feb644ba6e2e54fed.js"
+    "url": "app-8f4641b82b9a8310df6c.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "8c4d2de8b9a428a309cf44444456f6b8"
+    "revision": "6725aa7b1a5db7546440829a84913103"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-d4ffc8c8027273198aca.js"
@@ -48,7 +48,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "bd73d90a8ee4e6f2479f2e8536fbcf30"
+    "revision": "6aff74fb51d00659e9e5405c97bfb15d"
   },
   {
     "url": "polyfill-4718f0fec20e0d09d7f5.js"
@@ -165,7 +165,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/sussybot-website/app-347feb644ba6e2e54fed.js`))) {
+  if (!resources || !(await caches.match(`/sussybot-website/app-8f4641b82b9a8310df6c.js`))) {
     return await fetch(event.request)
   }
 
