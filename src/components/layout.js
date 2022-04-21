@@ -25,24 +25,21 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
+      <div className="main-wrapper">
+        <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+        <div>
+          <main className="w">{children}</main>
+          <footer
+            style={{
+              marginTop: `2rem`,
+            }}
+          >
+             {new Date().getFullYear()}, made by
+            {` `}
+            <a href="https://twitter.com/0xgreenapple">0xgreenapple</a>
+          </footer>
+        </div>
+        <div className='moving-background'></div>
       </div>
     </>
   )
