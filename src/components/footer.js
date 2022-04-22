@@ -8,9 +8,10 @@ const Footer = ({ siteTitle }) => (
               marginTop: `2rem`,
             }}
           >
-             {new Date().getFullYear()}, made by
+            <p> {new Date().getFullYear()}, made by
             {` `}
             <a href="https://twitter.com/0xgreenapple">0xgreenapple</a>
+            </p>
     </footer>
 )
 

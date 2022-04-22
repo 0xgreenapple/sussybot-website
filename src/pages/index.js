@@ -14,12 +14,16 @@ const IndexPage = () => (
         
 
         <img className="bot_logo" src="sussybot.svg"/><br/>
-        <img className="bot_rext" src="sussytext.svg"/>
-        <p className="desc-text">yet another entertainment bot</p>
+        
+        <div className="sussybottext">
+          <img className="bot_1" src="sussy.svg"/>
+          <img className="bot_2" src="bot.svg"/>
+        </div>
+        <p className="desc-text">Sussy-bot a genral purpose entertainment bot</p>
         <div className="button-container">
           <Link to="#" className="join-link">
             <ButtonBG className="btn-bg"/>
-            <span>Join Server</span>
+            <span>comming soon</span>
 
           </Link>
         </div>

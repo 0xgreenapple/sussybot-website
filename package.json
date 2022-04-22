@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "Sussy-bot",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Sussy-bot a genral purpose entertainment bot. made by green apple",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "https://twitter.com/0xgreenapple",
   "dependencies": {
     "gatsby": "^4.12.1",
     "gatsby-plugin-gatsby-cloud": "^4.12.1",

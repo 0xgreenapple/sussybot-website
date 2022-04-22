@@ -140,6 +140,8 @@ table {
   text-align: center;
   font-family: 'Press Start 2P', "VT323";
   color: white;
+  padding: 0 24px;
+  overflow: hidden;
 }
 
 * {
@@ -171,15 +173,15 @@ body {
 }
 
 .desc-text{
-  margin-top: 40px;
+  margin-top: 31px;
   font-family: 'VT323', monospace;
-  font-size: 24px;
+  font-size: 30px;
   line-height: 120%;
 }
 
 .button-container{
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 61px;
 
 }
 
@@ -202,6 +204,8 @@ body {
 .join-link span{
     z-index: 1;
     color: black;
+    font-family: "VT323","monospace";
+    font-size: 35px;
     border: 0;
     
 }
@@ -255,10 +259,43 @@ body {
 
 .bot_rext {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 footer a {
-  color: aqua;
+  color: #7AFCA6;
+  text-decoration: none;
+}
+footer p {
+  color: #7AFCA6; 
+  font-family: "VT323","monospace";
+  font-size: 33px;
+}
+.sussybottext {
+  display: flex;
+  margin-top: 40px;
+}
+.sussybottext img {
+  padding: 0px 20px;
 
+}
+@media (max-width: 600px) {
+  .sussybottext {
+    flex-direction: column;
+  
+  }
+  .sussybottext img {
+    height: 48px;
+  }
+    .sussybottext .bot_2 {
+      margin-top: 20px;
+  }
+  .desc-text {
+    font-size: 24px;
+  }
+  footer p {
+    font-size: 24px;
+  }
+
+  
 }

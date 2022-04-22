@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Sussy Bot`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Sussy-bot a genral purpose entertainment bot. made by green apple`,
     author: `@0xgreenapple`,
     siteUrl: `https://sussybot.xyz/`,
   },
@@ -28,7 +28,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/bot_icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-offline`,
@@ -42,7 +42,16 @@ module.exports = {
           include: /static/
         }
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "G-ERH7GKQJ73",
+        // this option places the tracking script into the head of the DOM
+        head: true,
+        // other options
+      },
+    },
 
   ],
   

@@ -41,6 +41,14 @@ function Seo({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `keywords`,
+          content: `sussy bot, sussyserver, sussy discord server,  discord bot, discord, sussy bot xyz , green apple, 0xgreenapple`,
+        },
+        {
+          property: `og:image`,
+          content: `https://sussybot.xyz/preview.jpg`,
+        },
+        {
           property: `og:title`,
           content: title,
         },
@@ -53,12 +61,20 @@ function Seo({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          property: `og:url`,
+          content: site.siteMetadata.siteUrl,
+        },
+        {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
+          content: `@0xgreenapple`,
+        },
+        {
+          name: `twitter:url`,
+          content: site.siteMetadata.siteUrl,
         },
         {
           name: `twitter:title`,
@@ -67,6 +83,10 @@ function Seo({ description, lang, meta, title }) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `twitter:image`,
+          content: `https://sussybot.xyz/preview.jpg`,
         },
       ].concat(meta)}
     />
