@@ -19,7 +19,7 @@ const IndexPage = () => (
           <img className="bot_1" src="sussy.svg"/>
           <img className="bot_2" src="bot.svg"/>
         </div>
-        <p className="desc-text">Sussy-bot a genral purpose entertainment bot</p>
+        <p className="desc-text">Sussy-bot a general purpose entertainment bot</p>
         <div className="button-container">
           <Link to="#" className="join-link">
             <ButtonBG className="btn-bg"/>

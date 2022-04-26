@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Sussy Bot`,
-    description: `Sussy-bot a genral purpose entertainment bot. made by green apple`,
+    description: `Sussy-bot a general purpose entertainment bot. made by green apple`,
     author: `@0xgreenapple`,
     siteUrl: `https://sussybot.xyz/`,
   },
