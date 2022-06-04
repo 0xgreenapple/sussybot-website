@@ -182,26 +182,24 @@ body {
 .button-container{
   margin-top: 40px;
   margin-bottom: 61px;
+  width: auto;
 
 }
 
 .join-link{
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  overflow: hidden;
   height: 72px;
+  width: auto;
   text-decoration: none;
 }
-
 .join-link:hover{
   opacity: .9;
-  
 }
-
-
 .join-link span{
+    display: block;
     z-index: 1;
     color: black;
     font-family: "VT323","monospace";
@@ -211,10 +209,10 @@ body {
 }
 
 .join-link:hover span{
-  color: white;
+  color: rgb(252, 252, 254);
 }
 .join-link .btn-bg {
-  position:absolute;
+  position: absolute;
   height: 100%;
 }
 
@@ -230,7 +228,7 @@ body {
 }
 
 .overlay {
-  opacity: 0.85;
+  opacity: 1;
   width: 100%;
   height: 100%;
   z-index: 10;
@@ -273,16 +271,15 @@ footer p {
 }
 .sussybottext {
   display: flex;
+  justify-content: center;
   margin-top: 40px;
 }
 .sussybottext img {
   padding: 0px 20px;
-
 }
 @media (max-width: 600px) {
   .sussybottext {
     flex-direction: column;
-  
   }
   .sussybottext img {
     height: 48px;
@@ -296,6 +293,9 @@ footer p {
   footer p {
     font-size: 24px;
   }
-
-  
+}
+.server{
+  display: inline-block;
+  justify-content: center;
+  padding-top: 30px;
 }

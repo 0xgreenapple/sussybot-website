@@ -21,7 +21,7 @@ const IndexPage = () => (
         </div>
         <p className="desc-text">Sussy-bot a general purpose entertainment bot</p>
         <div className="button-container">
-          <Link to="#" className="join-link">
+          <Link to="https://discord.gg/wC37kY3qwH" className="join-link">
             <ButtonBG className="btn-bg"/>
             <span>comming soon</span>
 
